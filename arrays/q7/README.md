@@ -1,38 +1,49 @@
-# 238. Product of Array Except Self
+# 36. Valid Sudoku
 Solved
 Medium
 
 Topics
 Companies
+Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
 
-Hint
-Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+Each row must contain the digits 1-9 without repetition.
+Each column must contain the digits 1-9 without repetition.
+Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+Note:
 
-The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
-
-You must write an algorithm that runs in O(n) time and without using the division operation.
-
+A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+Only the filled cells need to be validated according to the mentioned rules.
  
 
 Example 1:
 
-Input: nums = [1,2,3,4]
-Output: [24,12,8,6]
+
+Input: board = 
+[["5","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]
+Output: true
 Example 2:
 
-Input: nums = [-1,1,0,-3,3]
-Output: [0,0,9,0,0]
- 
-
-Constraints:
-
-2 <= nums.length <= 105
--30 <= nums[i] <= 30
-The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
- 
-
-Follow up: Can you solve the problem in O(1) extra space complexity? (The output array does not count as extra space for space complexity analysis.)
+Input: board = 
+[["8","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]
+Output: false
+Explanation: Same as Example 1, except with the 5 in the top left corner being modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/a90ba2bedb4f064d4bc739e68d32b14bdbf1e940/arrays/q6/solution.py#L1-L25
+https://github.com/deleomike/leetcode-prep/blob/53194daee8f51d158b7d615769ff8082b9b71c08/arrays/q7/solution.py#L1-L56
