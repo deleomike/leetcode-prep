@@ -15,3 +15,8 @@ https://neetcode.io/roadmap
     <li>Encode and Decode Strings</li>
     <li><a href="./arrays/q9/README.md">Longest Consecutive Sequence</a></li>
 </ol>
+
+## Stack
+<ol>
+    <li><a href="./stack/q1/README.md">Valid Parentheses</a></li>
+</ol>
