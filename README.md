@@ -11,4 +11,5 @@ https://neetcode.io/roadmap
     <li><a href="./arrays/q4/README.md">Group Anagrams</a></li>
     <li><a href="./arrays/q5/README.md">Top K Frequent Elements</a></li>
     <li><a href="./arrays/q6/README.md">Product of Array Except Self</a></li>
+    <li><a href="./arrays/q7/README.md">Valid Sudoku</a></li>
 </ol>
