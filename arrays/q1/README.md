@@ -28,4 +28,4 @@ Constraints:
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/64b7380011810150fc09560123a9703ec42885e2/arrays/q1/solution.py
+https://github.com/deleomike/leetcode-prep/blob/64b7380011810150fc09560123a9703ec42885e2/arrays/q1/solution.py#L1
