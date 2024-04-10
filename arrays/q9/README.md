@@ -34,4 +34,4 @@ Worth noting this solution was in the top 97.7%
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/53194daee8f51d158b7d615769ff8082b9b71c08/arrays/q7/solution.py#L1-L56
+https://github.com/deleomike/leetcode-prep/blob/9c6096765d5f37301de29f1f9eb1156e8ae64917/arrays/q9/solution.py#L1-L21
