@@ -35,4 +35,4 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/64b7380011810150fc09560123a9703ec42885e2/arrays/q1/solution.py#L1-L4
+https://github.com/deleomike/leetcode-prep/blob/a90ba2bedb4f064d4bc739e68d32b14bdbf1e940/arrays/q6/solution.py#L1-L25

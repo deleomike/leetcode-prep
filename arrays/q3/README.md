@@ -41,4 +41,4 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/64b7380011810150fc09560123a9703ec42885e2/arrays/q1/solution.py#L1-L4
+https://github.com/deleomike/leetcode-prep/blob/a90ba2bedb4f064d4bc739e68d32b14bdbf1e940/arrays/q3/solution.py#L1-L21
