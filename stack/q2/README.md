@@ -47,4 +47,4 @@ At most 3 * 104 calls will be made to push, pop, top, and getMin.
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/510093fcdb353c9fd254b70472fc4181d56bea05/stack/q1/solution.py#L1-L48
+https://github.com/deleomike/leetcode-prep/blob/95cb1ea49dae40c1e4ec9a655a51571031196e14/stack/q2/solution.py#L1-L32
