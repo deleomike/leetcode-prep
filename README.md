@@ -23,4 +23,5 @@ https://neetcode.io/roadmap
     <li><a href="./stack/q3/README.md">Evaluate Reverse Polish Notation</a></li>
     <li>Generate Parentheses (Unfinished)</li>
     <li><a href="./stack/q5/README.md">Daily Temperatures</a></li>
+    <li><a href="./stack/q6/README.md">Car Fleet</a></li>
 </ol>
