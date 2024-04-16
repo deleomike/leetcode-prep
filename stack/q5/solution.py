@@ -1,48 +1,23 @@
 class Solution:
     def brute_force(self, temperatures: List[int]) -> List[int]:
         stack = []
-        waits = []
+        waits = [0] * len(temperatures)
 
-        counter = 0
+        for index, temp in enumerate(temperatures):
 
-        for temp in temperatures:
-            if len(stack) > 0:
-                # Check if the temp is hotter
-                copy_stack = stack
-                print("---looping---")
-                for sub_counter in range(0, len(stack)):
-                    stack_temp = stack[sub_counter]
-                    print(f"? {temp} > {stack_temp}")
-                    if temp > stack_temp:
-                        # temp is hotter
-                        # pop the temp, add the counter
-                        print(stack_temp, copy_stack.pop(sub_counter))
-                        count = counter + sub_counter
-                        waits.append(count)
-                        print(f"{temp} > {stack_temp}: {count}")
-                        sub_counter -= 1
-                    # else:
-                    #     break
-                counter = 0
-                print("---end looping---")
-                
-                # temp is not hotter
-                # append, and keep looking
-                stack.append(temp)
-                
-            else:
-                stack.append(temp)
-            
-            counter += 1
-            print(stack)
-        print(waits)
+            # While the stack is not empty and the temperature is greater than the first saved temp
+            while len(stack) > 0 and temp > stack[-1][0]:
+                # Get the old temp, and its index
+                old_temp, old_temp_index = stack.pop(-1)
 
-        for _ in stack:
-            waits.append(0)
+                # Calculate its waiting count
+                waiting_count = index - old_temp_index
+                # Save the waiting time
+                waits[old_temp_index] = waiting_count
+
+            stack.append((temp, index))
 
         return waits
-
-        # for i in range(len(temperatures), 0, -1):
 
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         return self.brute_force(temperatures)
