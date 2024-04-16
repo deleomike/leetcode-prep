@@ -19,4 +19,8 @@ https://neetcode.io/roadmap
 ## Stack
 <ol>
     <li><a href="./stack/q1/README.md">Valid Parentheses</a></li>
+    <li><a href="./stack/q2/README.md">Min Stack</a></li>
+    <li><a href="./stack/q3/README.md">Evaluate Reverse Polish Notation</a></li>
+    <li>Generate Parentheses (Unfinished)</li>
+    <li><a href="./stack/q5/README.md">Daily Temperatures</a></li>
 </ol>
