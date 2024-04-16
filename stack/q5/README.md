@@ -30,4 +30,4 @@ Constraints:
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/510093fcdb353c9fd254b70472fc4181d56bea05/stack/q1/solution.py#L1-L48
+https://github.com/deleomike/leetcode-prep/blob/6a74ff14acf3b213688e9606776c4d103dcb4613/stack/q5/solution.py#L1-L24
