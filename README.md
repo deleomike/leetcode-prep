@@ -24,10 +24,11 @@ https://neetcode.io/roadmap
     <li>Generate Parentheses (Unfinished)</li>
     <li><a href="./stack/q5/README.md">Daily Temperatures</a></li>
     <li><a href="./stack/q6/README.md">Car Fleet</a></li>
-    <li><a href="./stack/q7/README.md">Car Fleet</a></li>
+    <li><a href="./stack/q7/README.md"></a></li>
 </ol>
 
 ## Two Pointers
 <ol>
     <li><a href="./two pointers/q1/README.md">Valid Palindrome</a></li>
+    <li><a href="./two pointers/q2/README.md">Two Sum II - Input Array Is Sorted</a></li>
 </ol>
