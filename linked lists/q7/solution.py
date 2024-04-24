@@ -1,50 +1,24 @@
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
 class Solution:
-    def assemble_links_from_list(self, values) -> ListNode:
+    def solution(self, head: Optional[ListNode]) -> bool:
+        fast, slow = head, head
 
-        if len(values) == 0:
-            return 
+        while fast:
+            if fast.next is None:
+                return False
+                
+            fast = fast.next.next
+            slow = slow.next
 
-        head = ListNode(values[0])
-        cursor = head
+            if fast == slow:
+                return True
 
-        for i in range(1, len(values)):
-            cursor.next = ListNode(values[i])
-            cursor = cursor.next
-
-        return head
-
-    def get_whole_number_2(self, head: ListNode):
-        num = 0
-        cursor = head
-        position = 0
-        while cursor:
-            num += cursor.val * (10 ** position)
-            cursor = cursor.next
-            position += 1
-
-        return num
-
-    def get_whole_number(self, head: ListNode):
-        num = ""
-        cursor = head
-        while cursor:
-            num += str(cursor.val)
-            cursor = cursor.next
-
-        return int(num[::-1])
-
-    def solution(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> ListNode:
-        a = self.get_whole_number_2(l1)
-        b = self.get_whole_number_2(l2)
-
-        sum_ = list(map(int, str(a+b)))[::-1]
-
-        return self.assemble_links_from_list(sum_)
-
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        return self.solution(l1,l2)
+        return False
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        return self.solution(head)
+        
