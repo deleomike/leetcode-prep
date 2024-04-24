@@ -40,4 +40,4 @@ The tests are generated such that there is exactly one solution.
 
 ## Solution
 
-https://github.com/deleomike/leetcode-prep/blob/510093fcdb353c9fd254b70472fc4181d56bea05/stack/q1/solution.py#L1-L48
+https://github.com/deleomike/leetcode-prep/blob/1b99796ab37f52c9b4067dc2727e415ab9217a1a/two%20pointers/q2/solution.py#L1-L31
