@@ -40,4 +40,8 @@ https://neetcode.io/roadmap
 <ol>
     <li><a href="./linked lists/q1/README.md">Reverse Linked List</a></li>
     <li><a href="./linked lists/q2/README.md">Merge Two Sorted Lists</a></li>
+    <li><a href="./linked lists/q3/README.md">Reorder List</a></li>
+    <li><a href="./linked lists/q4/README.md">Remove Nth Node From End of List</a></li>
+    <li><a href="./linked lists/q5/README.md"></a></li>
+    <li><a href="./linked lists/q6/README.md">Add Two Numbers</a></li>
 </ol>

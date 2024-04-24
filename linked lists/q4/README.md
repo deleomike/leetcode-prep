@@ -1,35 +1,39 @@
-# 143. Reorder List
+# 19. Remove Nth Node From End of List
 Solved
 Medium
 
 Topics
 Companies
-You are given the head of a singly linked-list. The list can be represented as:
 
-L0 → L1 → … → Ln - 1 → Ln
-Reorder the list to be on the following form:
-
-L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
-You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+Hint
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
 
  
 
 Example 1:
 
 
-Input: head = [1,2,3,4]
-Output: [1,4,2,3]
+Input: head = [1,2,3,4,5], n = 2
+Output: [1,2,3,5]
 Example 2:
 
+Input: head = [1], n = 1
+Output: []
+Example 3:
 
-Input: head = [1,2,3,4,5]
-Output: [1,5,2,4,3]
+Input: head = [1,2], n = 1
+Output: [1]
  
 
 Constraints:
 
-The number of nodes in the list is in the range [1, 5 * 104].
-1 <= Node.val <= 1000
+The number of nodes in the list is sz.
+1 <= sz <= 30
+0 <= Node.val <= 100
+1 <= n <= sz
+ 
+
+Follow up: Could you do this in one pass?
 
 ## Solution
 
