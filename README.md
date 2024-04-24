@@ -29,6 +29,6 @@ https://neetcode.io/roadmap
 
 ## Two Pointers
 <ol>
-    <li><a href="./two pointers/q1/README.md">Valid Palindrome</a></li>
-    <li><a href="./two pointers/q2/README.md">Two Sum II - Input Array Is Sorted</a></li>
+    <li><a href="./linked lists/q1/README.md">Reverse Linked List</a></li>
+    <li><a href="./linked lists/q2/README.md">Merge Two Sorted Lists</a></li>
 </ol>
