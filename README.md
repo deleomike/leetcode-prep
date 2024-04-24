@@ -44,4 +44,6 @@ https://neetcode.io/roadmap
     <li><a href="./linked lists/q4/README.md">Remove Nth Node From End of List</a></li>
     <li><a href="./linked lists/q5/README.md"></a></li>
     <li><a href="./linked lists/q6/README.md">Add Two Numbers</a></li>
+    <li><a href="./linked lists/q7/README.md">Linked List Cycle</a></li>
+    
 </ol>
