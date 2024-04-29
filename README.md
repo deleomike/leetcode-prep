@@ -46,4 +46,5 @@ https://neetcode.io/roadmap
     <li><a href="./linked lists/q6/README.md">Add Two Numbers</a></li>
     <li><a href="./linked lists/q7/README.md">Linked List Cycle</a></li>
     <li><a href="./linked lists/q8/README.md">Find the Duplicate Number</a></li>
+    <li><a href="./linked lists/q9/README.md">LRU Cache</a></li>
 </ol>
