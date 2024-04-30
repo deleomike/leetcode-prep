@@ -49,3 +49,8 @@ https://neetcode.io/roadmap
     <li><a href="./linked lists/q9/README.md">LRU Cache</a></li>
     <li><a href="./linked lists/q9/README.md">Merge k Sorted Lists</a></li>
 </ol>
+
+## Binary Search
+<ol>
+    <li><a href="./binary search/q1/README.md">Binary Search</a></li>
+</ol>
