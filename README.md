@@ -47,4 +47,5 @@ https://neetcode.io/roadmap
     <li><a href="./linked lists/q7/README.md">Linked List Cycle</a></li>
     <li><a href="./linked lists/q8/README.md">Find the Duplicate Number</a></li>
     <li><a href="./linked lists/q9/README.md">LRU Cache</a></li>
+    <li><a href="./linked lists/q9/README.md">Merge k Sorted Lists</a></li>
 </ol>
